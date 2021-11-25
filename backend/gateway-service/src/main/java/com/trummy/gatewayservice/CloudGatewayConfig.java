@@ -14,6 +14,8 @@ public class CloudGatewayConfig {
         return
                 builder
                     .routes()
+                        .route(p -> p.path("/meal/**")
+                        .uri("lb://meal-service"))
                     .build();
     }
 }
