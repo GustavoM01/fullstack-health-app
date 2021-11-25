@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1122.5197"
+   height="1889.7638"
+   viewBox="0 0 297 500"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="wireframe.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2230"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1168"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,8.73125,0,1 @ F,0,0,1,0,8.73125,0,1 @ F,0,0,1,0,8.73125,0,1 @ F,0,0,1,0,8.73125,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="33"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1166"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,12.7,0,1 @ F,0,0,1,0,12.7,0,1 @ F,0,0,1,0,12.7,0,1 @ F,0,0,1,0,12.7,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="48"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <rect
+       x="166.6748"
+       y="375.537"
+       width="89.907568"
+       height="48.757566"
+       id="rect1160" />
+    <rect
+       x="156.99245"
+       y="189.84329"
+       width="105.12269"
+       height="71.926054"
+       id="rect987" />
+    <rect
+       x="37.288082"
+       y="46.432133"
+       width="99.827621"
+       height="99.827637"
+       id="rect935" />
+    <rect
+       x="156.99245"
+       y="189.84329"
+       width="105.12269"
+       height="71.926056"
+       id="rect987-2" />
+    <rect
+       x="156.99245"
+       y="189.84329"
+       width="105.12269"
+       height="71.926056"
+       id="rect1000" />
+    <rect
+       x="156.99245"
+       y="189.84329"
+       width="105.12269"
+       height="71.926056"
+       id="rect987-3" />
+    <rect
+       x="156.99245"
+       y="189.84329"
+       width="105.12269"
+       height="71.926056"
+       id="rect1000-2" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.8407384"
+     inkscape:cx="561.77876"
+     inkscape:cy="467.42386"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="REPORT"
+     style="display:none">
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.451;stroke-miterlimit:4;stroke-dasharray:0.451, 1.804;stroke-dashoffset:0;stop-color:#000000"
+       id="rect839-4-7"
+       width="242.46201"
+       height="499.6955"
+       x="27.269003"
+       y="0.079201728" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.408646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.408646, 1.63458;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 148.5,0.07920173 V 499.77469"
+       id="path902-6-2" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-3-27"
+       width="297.07895"
+       height="14.85291"
+       x="-0.039474741"
+       y="-0.039474741" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-0-8"
+       width="297.07895"
+       height="47.737057"
+       x="-0.039468765"
+       y="452.12045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="136.73157"
+       y="478.04089"
+       id="text837-4-73"><tspan
+         sodipodi:role="line"
+         id="tspan835-75-9"
+         x="136.73157"
+         y="478.04089"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FOOTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="26.815895"
+       y="9.5614605"
+       id="text837-76-2"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-9"
+         x="26.815895"
+         y="9.5614605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">LOGO</tspan></text>
+    <circle
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.187857;stop-color:#000000"
+       id="path1001-7"
+       cx="255.84871"
+       cy="7.6979856"
+       r="5.3837895" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.230634;stop-color:#000000"
+       id="path1003-9"
+       sodipodi:sides="3"
+       sodipodi:cx="238.49152"
+       sodipodi:cy="9.4587164"
+       sodipodi:r1="5.9221711"
+       sodipodi:r2="2.9610856"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       inkscape:transform-center-x="-3.1474293e-06"
+       inkscape:transform-center-y="-1.4805428"
+       d="m 243.62027,12.419802 -5.12875,0 -5.12875,0 2.56437,-4.4416283 2.56438,-4.4416284 2.56437,4.4416282 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="124.20035"
+       y="9.0484877"
+       id="text837-76-0-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-8-9"
+         x="124.20035"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">REPORT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="106.03622"
+       y="9.0484877"
+       id="text837-76-0-67-3"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-12-6"
+         x="106.03622"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEALS</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.435354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2060"
+       width="242.57999"
+       height="116.62859"
+       x="27.136839"
+       y="48.499622" />
+    <g
+       id="g2162">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.411912;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect2062"
+         width="39.32766"
+         height="12.953517"
+         x="30.240526"
+         y="51.603306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="39.460556"
+         y="59.618988"
+         id="text837-76-0-67-3-6"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-6-2"
+           x="39.460556"
+           y="59.618988"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MONTHLY</tspan></text>
+    </g>
+    <g
+       id="g2197"
+       transform="translate(-3.9892319)">
+      <rect
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.411912;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect2062-2"
+         width="39.32766"
+         height="12.953517"
+         x="79.963684"
+         y="51.603306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="88.111946"
+         y="59.618988"
+         id="text837-76-0-67-3-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-6-2-0"
+           x="88.111946"
+           y="59.618988"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">3 MONTHS</tspan></text>
+    </g>
+    <g
+       id="g2202"
+       transform="translate(-6.9234774)">
+      <rect
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.411912;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect2062-7"
+         width="39.32766"
+         height="12.953517"
+         x="128.63185"
+         y="51.603306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="136.81113"
+         y="59.618988"
+         id="text837-76-0-67-3-6-2"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-6-2-7"
+           x="136.81113"
+           y="59.618988"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">6 MONTHS</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="138.64139"
+       y="108.86306"
+       id="text837-76-2-3"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-9-2"
+         x="138.64139"
+         y="108.86306"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">GRAPH</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 27.064501,120.84615 c 19.275208,-12.41908 43.06482,-17.65507 65.773035,-14.47636 7.854414,1.09947 15.833164,3.16537 23.602764,1.57351 5.3043,-1.08676 10.10233,-3.80912 14.91025,-6.29921 4.80792,-2.490094 9.89063,-4.826539 15.30129,-5.030111 3.57125,-0.134366 7.11663,0.673905 10.51768,1.77151 3.40105,1.097605 6.70271,2.487251 10.10864,3.569611 3.40593,1.08236 6.96121,1.85916 10.53033,1.67683 3.56912,-0.18233 7.17435,-1.39843 9.7548,-3.870915 1.54151,-1.477013 2.66325,-3.337173 3.61043,-5.250455 0.94719,-1.913283 1.73839,-3.902173 2.72794,-5.793897 0.98954,-1.891725 2.19855,-3.706797 3.83519,-5.077645 1.63664,-1.370848 3.74574,-2.266673 5.87632,-2.130808 2.08016,0.132649 4.01654,1.236824 5.46423,2.736439 1.44769,1.499615 2.45173,3.372777 3.25619,5.295664 0.80446,1.922887 1.42705,3.91765 2.22426,5.843552 0.79721,1.925902 1.78632,3.805384 3.21698,5.321255 1.62864,1.72564 3.78449,2.91484 6.07374,3.53905 2.28925,0.62422 4.7084,0.69884 7.061,0.38967 4.70519,-0.61834 9.07073,-2.72075 13.30036,-4.872825 8.45641,-4.302692 16.75137,-8.922672 24.86158,-13.846955"
+       id="path2228"
+       inkscape:path-effect="#path-effect2230"
+       inkscape:original-d="m 27.064501,120.84615 c 21.924611,-4.82519 43.848956,-9.65064 65.773035,-14.47636 21.924084,-4.82572 15.735444,1.04927 23.602764,1.57351 7.86732,0.52425 20.14129,-7.55261 30.21154,-11.329321 10.07025,-3.776708 27.27457,2.098288 40.91145,3.147036 13.63689,1.048745 10.70019,-12.168272 16.04988,-18.252805 5.3497,-6.084533 9.44137,12.798208 14.16166,19.19691 4.72029,6.39871 17.62366,-0.62914 26.4351,-0.944105 8.81143,-0.314968 16.57465,-9.23104 24.86158,-13.846955" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="MEALS"
+     style="display:none">
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.451;stroke-miterlimit:4;stroke-dasharray:0.451, 1.804;stroke-dashoffset:0;stop-color:#000000"
+       id="rect839-4-5"
+       width="242.46201"
+       height="499.6955"
+       x="27.269003"
+       y="0.079201728" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.408646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.408646, 1.63458;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 148.5,0.07920173 V 499.77469"
+       id="path902-6-3" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-3-2"
+       width="297.07895"
+       height="14.85291"
+       x="-0.039474741"
+       y="-0.039474741" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-0-4"
+       width="297.07895"
+       height="47.737057"
+       x="-0.039468765"
+       y="452.12045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="136.73157"
+       y="478.04089"
+       id="text837-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan835-75-89"
+         x="136.73157"
+         y="478.04089"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FOOTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="26.815895"
+       y="9.5614605"
+       id="text837-76-9"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-4"
+         x="26.815895"
+         y="9.5614605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">LOGO</tspan></text>
+    <circle
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.187857;stop-color:#000000"
+       id="path1001-5"
+       cx="255.84871"
+       cy="7.6979856"
+       r="5.3837895" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.230634;stop-color:#000000"
+       id="path1003-6"
+       sodipodi:sides="3"
+       sodipodi:cx="238.49152"
+       sodipodi:cy="9.4587164"
+       sodipodi:r1="5.9221711"
+       sodipodi:r2="2.9610856"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       inkscape:transform-center-x="-3.1474293e-06"
+       inkscape:transform-center-y="-1.4805428"
+       d="m 243.62027,12.419802 -5.12875,0 -5.12875,0 2.56437,-4.4416283 2.56438,-4.4416284 2.56437,4.4416282 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="106.03622"
+       y="9.0484877"
+       id="text837-76-0-67"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-12"
+         x="106.03622"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEALS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="124.20035"
+       y="9.0484877"
+       id="text837-76-0-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-8-6"
+         x="124.20035"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">REPORT</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.458749;stroke-miterlimit:4;stroke-dasharray:0.458749, 2.75249;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1067-0"
+       width="158.59833"
+       height="293.21243"
+       x="27.245913"
+       y="31.279312" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="32.652306"
+       y="41.244877"
+       id="text837-76-06-5"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-8-4"
+         x="32.652306"
+         y="41.244877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL HISTORY:</tspan></text>
+    <g
+       id="g1698"
+       transform="translate(0,-22.225008)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5"
+       style="display:inline"
+       transform="translate(0,5.6639267)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-5"
+       style="display:inline"
+       transform="translate(0,33.552854)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-7"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-4"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-5"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-9"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-5"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-9"
+       style="display:inline"
+       transform="translate(0,61.441785)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-4"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-7"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-8"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-93"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-9"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-1"
+       style="display:inline"
+       transform="translate(0,89.330653)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-41"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-46"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-1"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-7"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-7"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-6"
+       style="display:inline"
+       transform="translate(0,117.21952)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-5"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-8"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-7"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-0"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-1"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-13"
+       style="display:inline"
+       transform="translate(0,145.10849)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-9"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-2"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-4"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-4"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-4"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-4"
+       style="display:inline"
+       transform="translate(0,172.99742)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-53"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-85"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-0"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-70"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-19"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-7"
+       style="display:inline"
+       transform="translate(0,200.88635)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-1"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-5"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-13"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-6"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-49"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <g
+       id="g1698-5-2"
+       style="display:inline"
+       transform="translate(0,228.77526)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.451001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect1628-0-19"
+         width="146.86914"
+         height="18.914965"
+         x="33.156822"
+         y="69.651573" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="35.891491"
+         y="76.699417"
+         id="text837-76-0-67-6-5-47"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-12-5-0-3"
+           x="35.891491"
+           y="76.699417"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEAL: LOREM IMPSUM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="36.027916"
+         y="84.626343"
+         id="text837-76-0-6-9-3-0-3"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-0-1-6-6-1-8"
+           x="36.027916"
+           y="84.626343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SYMPTOMS: LOREM IPSUM, LOREM IPSUM, LOREM IPSUM</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.446131;stroke-miterlimit:4;stroke-dasharray:0.446131, 2.67678;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1948"
+       width="83.865768"
+       height="60.435379"
+       x="185.8418"
+       y="31.276878" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.401775;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1950"
+       width="69.478378"
+       height="23.637403"
+       x="191.79532"
+       y="48.959587" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.446131;stroke-miterlimit:4;stroke-dasharray:0.446131, 2.67678;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1948-9"
+       width="83.865768"
+       height="60.435379"
+       x="185.8418"
+       y="92.158401" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.401775;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1950-4"
+       width="69.478378"
+       height="23.637403"
+       x="191.79532"
+       y="109.84119" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="212.80232"
+       y="63.546463"
+       id="text837-76-06-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-8-4-3"
+         x="212.80232"
+         y="63.546463"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">ADD MEAL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="207.52029"
+       y="124.42825"
+       id="text837-76-06-5-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-8-4-3-0"
+         x="207.52029"
+         y="124.42825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MODIFY MEAL</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="USER"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="106.03622"
+       y="9.0484877"
+       id="text837-76-0-67-8-1"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-12-4-7"
+         x="106.03622"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEALS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="26.815895"
+       y="9.5614605"
+       id="text837-76-5"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7"
+         x="26.815895"
+         y="9.5614605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">LOGO</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-3-20"
+       width="297.07895"
+       height="14.85291"
+       x="-0.039474741"
+       y="-0.039474741" />
+    <circle
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.187857;stop-color:#000000"
+       id="path1001-2"
+       cx="255.84871"
+       cy="7.6979856"
+       r="5.3837895" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.230634;stop-color:#000000"
+       id="path1003-97"
+       sodipodi:sides="3"
+       sodipodi:cx="238.49152"
+       sodipodi:cy="9.4587164"
+       sodipodi:r1="5.9221711"
+       sodipodi:r2="2.9610856"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       inkscape:transform-center-x="-3.1474293e-06"
+       inkscape:transform-center-y="-1.4805428"
+       d="m 243.62027,12.419802 -5.12875,0 -5.12875,0 2.56437,-4.4416283 2.56438,-4.4416284 2.56437,4.4416282 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="124.20035"
+       y="9.0484877"
+       id="text837-76-0-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-8-3"
+         x="124.20035"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">REPORT</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.451;stroke-miterlimit:4;stroke-dasharray:0.451, 1.804;stroke-dashoffset:0;stop-color:#000000"
+       id="rect839-4-2"
+       width="242.46201"
+       height="499.6955"
+       x="27.269003"
+       y="0.079201728" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.408646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.408646, 1.63458;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 148.5,0.07920173 V 499.77469"
+       id="path902-6-1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2333"
+       width="82.096184"
+       height="59.843281"
+       x="26.600719"
+       y="35.501877" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="31.317135"
+       y="44.905064"
+       id="text837-76-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3"
+         x="31.317135"
+         y="44.905064"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">USER INFO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="31.317135"
+       y="83.180046"
+       id="text837-76-5-7-3"><tspan
+         id="tspan835-8-7-3-6"
+         x="31.317135"
+         y="83.180046"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         sodipodi:role="line">ACCOUNT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="31.317135"
+       y="64.042557"
+       id="text837-76-5-7-3-2"><tspan
+         id="tspan835-8-7-3-6-8"
+         x="31.317135"
+         y="64.042557"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         sodipodi:role="line">NOTIFICATIONS</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2333-8"
+       width="154.42392"
+       height="88.678612"
+       x="114.83057"
+       y="35.610237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="119.04325"
+       y="43.993721"
+       id="text837-76-5-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3-3"
+         x="119.04325"
+         y="43.993721"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">NAME:</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2451"
+       width="145.07832"
+       height="13.53225"
+       x="118.95792"
+       y="46.890823" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="119.04325"
+       y="71.68763"
+       id="text837-76-5-7-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3-3-4"
+         x="119.04325"
+         y="71.68763"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">EMAIL:</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2451-4"
+       width="145.07832"
+       height="13.53225"
+       x="118.95792"
+       y="74.584732" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2481"
+       width="64.514221"
+       height="14.476362"
+       x="199.20734"
+       y="101.64924" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="208.95421"
+       y="110.93656"
+       id="text837-76-5-7-5-8-5"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3-3-4-2"
+         x="208.95421"
+         y="110.93656"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SAVE CHANGES</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2333-8-6"
+       width="154.42392"
+       height="88.678612"
+       x="114.83057"
+       y="131.28011" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="119.04325"
+       y="139.66359"
+       id="text837-76-5-7-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3-3-3"
+         x="119.04325"
+         y="139.66359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MINUTES AFTER MEAL TO ASK FOR SYMPTOMS:</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2451-1"
+       width="145.07832"
+       height="13.53225"
+       x="118.95792"
+       y="142.5607" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="119.04325"
+       y="167.3575"
+       id="text837-76-5-7-5-8-2"><tspan
+         id="tspan835-8-7-3-3-4-4"
+         x="119.04325"
+         y="167.3575"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         sodipodi:role="line">PROMPT AGAIN IF NO SYPMTOMS: </tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2451-4-3"
+       width="145.07832"
+       height="13.53225"
+       x="118.95792"
+       y="170.25461" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2481-8"
+       width="64.514221"
+       height="14.476362"
+       x="199.20734"
+       y="197.31911" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="208.95421"
+       y="206.60643"
+       id="text837-76-5-7-5-8-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-7-3-3-4-2-8"
+         x="208.95421"
+         y="206.60643"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">SAVE CHANGES</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect2333-8-6-0"
+       width="154.42392"
+       height="38.165188"
+       x="114.83057"
+       y="228.20879" />
+    <g
+       id="g2622"
+       transform="translate(-39.421921,-54.194597)">
+      <rect
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.285001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+         id="rect2481-8-8"
+         width="64.514221"
+         height="14.476362"
+         x="199.20734"
+         y="294.2478" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+         x="205.35065"
+         y="303.53787"
+         id="text837-76-5-7-5-8-5-7-1"><tspan
+           sodipodi:role="line"
+           id="tspan835-8-7-3-3-4-2-8-1"
+           x="205.35065"
+           y="303.53787"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">DELETE ACCOUNT</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.15;font-family:sans-serif;display:inline;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+       x="303.52283"
+       y="41.389835"
+       id="text941-8"><tspan
+         sodipodi:role="line"
+         id="tspan939-0"
+         x="303.52283"
+         y="41.389835"
+         style="font-size:5.64444px;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">ONLY SHOWS ONE COMP</tspan><tspan
+         sodipodi:role="line"
+         x="303.52283"
+         y="47.880943"
+         style="font-size:5.64444px;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan2648">ACCORDING TO SELECTION</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-0-4-0"
+       width="297.07895"
+       height="47.737057"
+       x="-0.039468765"
+       y="452.12045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="136.73157"
+       y="478.04089"
+       id="text837-4-0-6"><tspan
+         sodipodi:role="line"
+         id="tspan835-75-89-4"
+         x="136.73157"
+         y="478.04089"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FOOTER</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="DASHBOARD"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="106.03622"
+       y="9.0484877"
+       id="text837-76-0-67-8"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-12-4"
+         x="106.03622"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">MEALS</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.451;stroke-miterlimit:4;stroke-dasharray:0.451, 1.804;stroke-dashoffset:0;stop-color:#000000"
+       id="rect839-4"
+       width="242.46201"
+       height="499.6955"
+       x="27.269003"
+       y="0.079201728" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.408646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.408646, 1.63458;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 148.5,0.07920173 V 499.77469"
+       id="path902-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="26.815895"
+       y="9.5614605"
+       id="text837-76"><tspan
+         sodipodi:role="line"
+         id="tspan835-8"
+         x="26.815895"
+         y="9.5614605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">LOGO</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-3"
+       width="297.07895"
+       height="14.85291"
+       x="-0.039474741"
+       y="-0.039474741" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.187857;stop-color:#000000"
+       id="path1001"
+       cx="255.84871"
+       cy="7.6979856"
+       r="5.3837895" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:0.230634;stop-color:#000000"
+       id="path1003"
+       sodipodi:sides="3"
+       sodipodi:cx="238.49152"
+       sodipodi:cy="9.4587164"
+       sodipodi:r1="5.9221711"
+       sodipodi:r2="2.9610856"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.62027,12.419802 -5.12875,0 -5.12875,0 2.56437,-4.4416283 2.56438,-4.4416284 2.56437,4.4416282 z"
+       inkscape:transform-center-x="-3.1474293e-06"
+       inkscape:transform-center-y="-1.4805428" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="124.20035"
+       y="9.0484877"
+       id="text837-76-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-0-8"
+         x="124.20035"
+         y="9.0484877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">REPORT</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.276179;stop-color:#000000"
+       id="rect1067"
+       width="212.28049"
+       height="79.396614"
+       x="27.154627"
+       y="53.413048" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="32.652306"
+       y="63.469898"
+       id="text837-76-06"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-8"
+         x="32.652306"
+         y="63.469898"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">TOP SUSPECTS:</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095"
+       width="40.136471"
+       height="40.136471"
+       x="45.800346"
+       y="73.838997" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-2"
+       width="40.136471"
+       height="40.136471"
+       x="91.789665"
+       y="73.838997" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-9"
+       width="40.136471"
+       height="40.136471"
+       x="137.77899"
+       y="73.838997" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-0"
+       width="40.136471"
+       height="40.136471"
+       x="183.76833"
+       y="73.838997" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.276179;stop-color:#000000"
+       id="rect1067-7"
+       width="212.28049"
+       height="79.396614"
+       x="27.154627"
+       y="145.34073" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="32.652306"
+       y="155.59689"
+       id="text837-76-06-7"><tspan
+         sodipodi:role="line"
+         id="tspan835-8-8-5"
+         x="32.652306"
+         y="155.59689"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">TOP SYMPTOMS:</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-03"
+       width="40.136471"
+       height="40.136471"
+       x="45.800346"
+       y="165.966" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-2-4"
+       width="40.136471"
+       height="40.136471"
+       x="91.789665"
+       y="165.966" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-9-6"
+       width="40.136471"
+       height="40.136471"
+       x="137.77899"
+       y="165.966" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-0-3"
+       width="40.136471"
+       height="40.136471"
+       x="183.76833"
+       y="165.966" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.276179;stop-color:#000000"
+       id="rect1067-7-6"
+       width="212.28049"
+       height="79.396614"
+       x="27.154627"
+       y="238.3687" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="32.652306"
+       y="249.94919"
+       id="text837-76-06-7-0"><tspan
+         id="tspan835-8-8-5-5"
+         x="32.652306"
+         y="249.94919"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         sodipodi:role="line">HEALTHY LIVING:</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-03-4"
+       width="40.136471"
+       height="40.136471"
+       x="45.800346"
+       y="260.3183" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-2-4-3"
+       width="40.136471"
+       height="40.136471"
+       x="91.789665"
+       y="260.3183" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-9-6-9"
+       width="40.136471"
+       height="40.136471"
+       x="137.77899"
+       y="260.3183" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.369749;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1095-0-3-7"
+       width="40.136471"
+       height="40.136471"
+       x="183.76833"
+       y="260.3183" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-0-0"
+       width="297.07895"
+       height="47.737057"
+       x="-0.039468765"
+       y="452.12045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
+       x="136.73157"
+       y="478.04089"
+       id="text837-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan835-75-8"
+         x="136.73157"
+         y="478.04089"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FOOTER</tspan></text>
+  </g>
+  <g
+     inkscape:label="HOME"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833"
+       width="297.07895"
+       height="14.85291"
+       x="-0.039474741"
+       y="-0.039474741" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="36.162113"
+       y="9.5614605"
+       id="text837"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="36.162113"
+         y="9.5614605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">LOGO</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.450628;stroke-miterlimit:4;stroke-dasharray:0.450628, 0.901255;stroke-dashoffset:0;stop-color:#000000"
+       id="rect839"
+       width="242.46201"
+       height="499.6955"
+       x="27.269003"
+       y="0.079201728" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="179.4523"
+       y="8.9382372"
+       id="text843"
+       transform="translate(27.063797)"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="179.4523"
+         y="8.9382372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">Login</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="224.98067"
+       y="8.9382372"
+       id="text843-1"><tspan
+         sodipodi:role="line"
+         id="tspan841-9"
+         x="224.98067"
+         y="8.9382372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Sign Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="245.01929"
+       y="8.9382372"
+       id="text843-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan841-9-1"
+         x="245.01929"
+         y="8.9382372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">About us</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.408646, 1.63458;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 148.5,0.07920173 V 499.77469"
+       id="path902" />
+    <g
+       id="g931"
+       transform="translate(0,12.964693)"
+       style="stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="rect900"
+         width="242.32321"
+         height="161.21667"
+         x="27.338398"
+         y="2.2859521" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="129.83174"
+         y="84.94619"
+         id="text837-7"><tspan
+           sodipodi:role="line"
+           id="tspan835-7"
+           x="129.83174"
+           y="84.94619"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">HERO IMAGE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;line-height:1.15;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-115.38577"
+         y="82.325806"
+         id="text941"><tspan
+           sodipodi:role="line"
+           id="tspan939"
+           x="-115.38577"
+           y="82.325806"
+           style="font-size:5.64444px;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">HERO IMAGE TAKES FULL HEIGHT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;line-height:1.15;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-116.03"
+         y="-3.3052356"
+         id="text941-9"><tspan
+           sodipodi:role="line"
+           x="-116.03"
+           y="-3.3052356"
+           style="font-size:5.64444px;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+           id="tspan1215">NAV CHANGES COLOR AND STAYS ON</tspan><tspan
+           sodipodi:role="line"
+           x="-116.03"
+           y="3.1858704"
+           style="font-size:5.64444px;fill:#ff0000;fill-opacity:1;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+           id="tspan1219">TOP OF VIEW WHILE SCROLLING</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="79.19709"
+         y="214.37206"
+         id="text837-7-4"><tspan
+           sodipodi:role="line"
+           id="tspan835-7-9"
+           x="79.19709"
+           y="214.37206"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">IMAGE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="200.07452"
+         y="298.22818"
+         id="text837-7-4-2"><tspan
+           sodipodi:role="line"
+           id="tspan835-7-9-8"
+           x="200.07452"
+           y="298.22818"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">IMAGE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none"
+         x="79.369987"
+         y="389.51892"
+         id="text837-7-4-2-9"><tspan
+           sodipodi:role="line"
+           id="tspan835-7-9-8-0"
+           x="79.369987"
+           y="389.51892"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none">IMAGE</tspan></text>
+    </g>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect943"
+       width="99.971001"
+       height="75.073517"
+       x="38.711777"
+       y="187.75085" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect943-8"
+       width="99.971001"
+       height="75.073517"
+       x="159.58922"
+       y="271.60696" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect943-8-7"
+       width="99.971001"
+       height="75.073517"
+       x="38.884674"
+       y="362.89771" />
+    <text
+       xml:space="preserve"
+       id="text985"
+       style="font-size:7.05556px;line-height:1.15;font-family:sans-serif;white-space:pre;shape-inside:url(#rect987);"
+       transform="translate(0,16.252522)"><tspan
+         x="156.99219"
+         y="195.92797"><tspan
+           style="font-size:7.05556px">In publishing and graphic </tspan></tspan><tspan
+         x="156.99219"
+         y="204.04186"><tspan
+           style="font-size:7.05556px">design, Lorem ipsum is a </tspan></tspan><tspan
+         x="156.99219"
+         y="212.15576"><tspan
+           style="font-size:7.05556px">placeholder text commonly  </tspan></tspan><tspan
+         x="156.99219"
+         y="220.26965"><tspan
+           style="font-size:7.05556px">placeholder before final copy </tspan></tspan><tspan
+         x="156.99219"
+         y="228.38354"><tspan
+           style="font-size:7.05556px">is available.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text985-6"
+       style="font-size:7.05556px;line-height:1.15;font-family:sans-serif;white-space:pre;shape-inside:url(#rect987-2);"
+       transform="translate(-119.66776,99.614843)"><tspan
+         x="156.99219"
+         y="195.92797"><tspan
+           style="font-size:7.05556px">In publishing and graphic </tspan></tspan><tspan
+         x="156.99219"
+         y="204.04186"><tspan
+           style="font-size:7.05556px">design, Lorem ipsum is a </tspan></tspan><tspan
+         x="156.99219"
+         y="212.15576"><tspan
+           style="font-size:7.05556px">placeholder text commonly  </tspan></tspan><tspan
+         x="156.99219"
+         y="220.26965"><tspan
+           style="font-size:7.05556px">placeholder before final copy </tspan></tspan><tspan
+         x="156.99219"
+         y="228.38354"><tspan
+           style="font-size:7.05556px">is available.</tspan></tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.285;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect833-0"
+       width="297.07895"
+       height="47.737057"
+       x="-0.039468765"
+       y="452.12045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="136.73157"
+       y="478.04089"
+       id="text837-4"><tspan
+         sodipodi:role="line"
+         id="tspan835-75"
+         x="136.73157"
+         y="478.04089"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FOOTER</tspan></text>
+    <g
+       id="g1173"
+       transform="translate(2.7663867,10.37395)">
+      <text
+         xml:space="preserve"
+         id="text1158"
+         style="font-size:7.76111px;line-height:1.15;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1160);"
+         transform="translate(11.670162,10.13345)"><tspan
+           x="166.67578"
+           y="382.22975"><tspan
+             style="font-size:7.76111px">START TODAY!</tspan></tspan></text>
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.285001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="rect1164"
+         width="76.184181"
+         height="21.0937"
+         x="168.52242"
+         y="378.99496"
+         sodipodi:type="rect"
+         inkscape:path-effect="#path-effect1168"
+         d="m 177.25367,378.99496 h 58.72168 a 8.73125,8.73125 45 0 1 8.73125,8.73125 v 3.63121 a 8.73125,8.73125 135 0 1 -8.73125,8.73125 l -58.72168,0 a 8.73125,8.73125 45 0 1 -8.73125,-8.73125 v -3.63121 a 8.73125,8.73125 135 0 1 8.73125,-8.73125 z" />
+    </g>
+  </g>
+</svg>

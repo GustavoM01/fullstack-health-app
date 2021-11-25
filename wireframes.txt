@@ -1,0 +1,7 @@
+WIREFRAMES
+
+- Layout
+- Blueprint
+- Enphasize suntionality
+- Structure
+- Not only define views but components in views and which are repeated (single page app)
