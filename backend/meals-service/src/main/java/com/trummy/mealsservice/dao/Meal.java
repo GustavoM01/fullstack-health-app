@@ -22,15 +22,9 @@ public class Meal {
     @ElementCollection
     private List<Long> ingredients = new ArrayList<>();
 
-    private Date dateConsumed;
+    private Date dateConsumed = new Date();
 
     @ElementCollection
     private List<Long> symptoms = new ArrayList<>();
 
-    public Meal(String mealName, List<Long> ingredients, Date dateConsumed, List<Long> symptoms) {
-        this.mealName = mealName;
-        this.ingredients = ingredients;
-        this.dateConsumed = dateConsumed;
-        this.symptoms = symptoms;
-    }
 }
