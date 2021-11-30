@@ -1,5 +1,6 @@
-package com.trummy.userservice;
+package com.trummy.userservice.repository;
 
+import com.trummy.userservice.dao.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,5 +1,8 @@
-package com.trummy.userservice;
+package com.trummy.userservice.service;
 
+import com.trummy.userservice.dao.User;
+import com.trummy.userservice.dto.UserDTO;
+import com.trummy.userservice.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
