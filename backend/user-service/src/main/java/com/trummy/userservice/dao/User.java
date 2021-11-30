@@ -31,4 +31,8 @@ public class User {
         this.username = username;
         this.password = password;
     }
+
+    public void addMeal(Long mealId) {
+        this.getMeals().add(mealId);
+    }
 }
