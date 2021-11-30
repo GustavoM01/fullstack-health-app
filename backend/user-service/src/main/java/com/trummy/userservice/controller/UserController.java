@@ -1,5 +1,8 @@
-package com.trummy.userservice;
+package com.trummy.userservice.controller;
 
+import com.trummy.userservice.dto.UserDTO;
+import com.trummy.userservice.service.UserService;
+import com.trummy.userservice.dao.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

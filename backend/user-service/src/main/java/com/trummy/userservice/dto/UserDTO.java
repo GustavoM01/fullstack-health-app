@@ -1,4 +1,4 @@
-package com.trummy.userservice;
+package com.trummy.userservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
