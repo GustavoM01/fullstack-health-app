@@ -1,14 +1,15 @@
 package com.trummy.mealsservice.dao;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
 @NoArgsConstructor
 @Entity
 public class Meal {
@@ -27,4 +28,10 @@ public class Meal {
     @ElementCollection
     private List<Long> symptoms = new ArrayList<>();
 
+    public Meal(String mealName, List<Long> ingredients, Date dateConsumed, List<Long> symptoms) {
+        this.mealName = mealName;
+        this.ingredients = ingredients;
+        this.dateConsumed = dateConsumed;
+        this.symptoms = symptoms;
+    }
 }

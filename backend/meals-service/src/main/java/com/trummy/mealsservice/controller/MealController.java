@@ -28,7 +28,7 @@ public class MealController {
         return mealRepository.findById(id);
     }
 
-    @PostMapping()
+    @PostMapping
     public Meal postMeal(@RequestBody MealDTO meal) {
         Meal newMeal = new Meal(meal.getMealName(), meal.getIngredients(), meal.getDateConsumed(), meal.getSymptoms());
 

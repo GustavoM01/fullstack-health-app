@@ -1,5 +1,6 @@
 package com.trummy.userservice.controller;
 
+import com.trummy.userservice.dto.MealDTO;
 import com.trummy.userservice.dto.UserDTO;
 import com.trummy.userservice.service.UserService;
 import com.trummy.userservice.dao.User;
@@ -36,5 +37,9 @@ public class UserController {
     public User create(@RequestBody @Valid UserDTO newUser) {
         return userService.save(newUser);
     }
+
+    @PostMapping("/{userId}/meal")
+    @ResponseStatus(HttpStatus.CREATED)
+    public MealDTO addMeal(@PathVariable("userId") Long userId, @RequestBody MealDTO newMeal) { return userService.addMeal(userId, newMeal);}
 
 }
