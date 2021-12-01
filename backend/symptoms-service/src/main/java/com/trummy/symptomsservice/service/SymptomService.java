@@ -2,6 +2,7 @@ package com.trummy.symptomsservice.service;
 
 import com.trummy.symptomsservice.dao.Symptom;
 import com.trummy.symptomsservice.dto.SymptomDTO;
+import com.trummy.symptomsservice.enums.Type;
 import com.trummy.symptomsservice.repository.SymptomRepository;
 import org.springframework.stereotype.Service;
 
@@ -29,7 +30,7 @@ public class SymptomService {
     public Symptom saveSymptom(SymptomDTO newSymptom) {
         Symptom symptom =
                 new Symptom(
-                   newSymptom.getName(),
+                   Type.valueOf(newSymptom.getName()),
                    newSymptom.getDescription(),
                    newSymptom.getIntensity());
 
