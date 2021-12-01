@@ -11,3 +11,6 @@ public class SymptomsServiceApplication {
 	}
 
 }
+
+// 1. Add predefined symptoms - enum
+//
