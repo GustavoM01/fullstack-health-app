@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -20,6 +21,8 @@ public class Symptom {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private Long userId;
+
     @Enumerated
     private Type name;
 
@@ -28,9 +31,13 @@ public class Symptom {
     @Enumerated
     private Level intensity;
 
-    public Symptom(Type name, String description, Level intensity) {
+    private Date timeOfSymptom;
+
+    public Symptom(Long userId, Type name, String description, Level intensity, Date timeOfSymptom) {
+        this.userId = userId;
         this.name = name;
         this.description = description;
         this.intensity = intensity;
+        this.timeOfSymptom = timeOfSymptom;
     }
 }

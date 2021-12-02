@@ -14,11 +14,8 @@ public class MealDTO {
 
     private Date dateConsumed = new Date();
 
-    private List<Long> symptoms;
-
-    public MealDTO(String mealName, List<Long> ingredients, List<Long> symptoms) {
+    public MealDTO(String mealName, List<Long> ingredients) {
         this.mealName = mealName;
         this.ingredients = ingredients;
-        this.symptoms = symptoms;
     }
 }

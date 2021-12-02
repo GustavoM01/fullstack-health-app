@@ -43,21 +43,14 @@ public class UserService {
         return userRepository.save(newUserEntity);
     }
 
-    public MealDTO addMeal(Long userId, MealDTO newMeal) {
+    public User addMeal(Long userId, Long mealId) {
         Optional<User> foundUser = userRepository.findById(userId);
-        MealDTO savedMeal;
 
         if (foundUser.isEmpty())
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User with id: " + userId + " is not found in the database");
 
-        try {
-            savedMeal = mealProxy.saveMeal(newMeal);
-        } catch (FeignException e) {
-            throw new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE, "Meal could not be saved. Please try again later");
-        }
-
-        foundUser.get().addMeal(savedMeal.getId());
+        foundUser.get().addMeal(mealId);
         userRepository.save(foundUser.get());
-        return savedMeal;
+        return foundUser.get();
     }
 }

@@ -25,7 +25,7 @@ public class User {
     private String password;
 
     @ElementCollection
-    private List<Long> meals = new ArrayList<>();
+    private List<Long> mealList = new ArrayList<>();
 
     public User(String username, String password) {
         this.username = username;
@@ -33,6 +33,6 @@ public class User {
     }
 
     public void addMeal(Long mealId) {
-        this.getMeals().add(mealId);
+        this.getMealList().add(mealId);
     }
 }

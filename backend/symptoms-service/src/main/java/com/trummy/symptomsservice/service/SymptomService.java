@@ -30,9 +30,11 @@ public class SymptomService {
     public Symptom saveSymptom(SymptomDTO newSymptom) {
         Symptom symptom =
                 new Symptom(
+                   newSymptom.getUserId(),
                    Type.valueOf(newSymptom.getName()),
                    newSymptom.getDescription(),
-                   newSymptom.getIntensity());
+                   newSymptom.getIntensity(),
+                   newSymptom.getTimeOfSymptom());
 
         return symptomRepository.save(symptom);
     }

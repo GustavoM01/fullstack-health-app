@@ -9,6 +9,8 @@ import lombok.Setter;
 
 import javax.persistence.Enumerated;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.util.Date;
 
 
 @Getter
@@ -16,6 +18,9 @@ import javax.validation.constraints.NotBlank;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SymptomDTO {
+
+    @NotNull
+    private Long userId;
 
     @NotBlank
     private String name;
@@ -25,4 +30,7 @@ public class SymptomDTO {
 
     @Enumerated
     private Level intensity;
+
+    private Date timeOfSymptom = new Date();
+
 }
