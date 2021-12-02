@@ -15,6 +15,8 @@ public class CloudGatewayConfig {
                 builder
                     .routes()
 
+                        .route(p -> p.path("/input/**")
+                        .uri("lb://input-service"))
                         .route(p -> p.path("/user/**")
                         .uri("lb://user-service"))
                         .route(p -> p.path("/meal/**")

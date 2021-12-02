@@ -38,8 +38,8 @@ public class UserController {
         return userService.save(newUser);
     }
 
-    @PostMapping("/{userId}/meal")
+    @PostMapping("/{userId}/{mealId}")
     @ResponseStatus(HttpStatus.CREATED)
-    public MealDTO addMeal(@PathVariable("userId") Long userId, @RequestBody MealDTO newMeal) { return userService.addMeal(userId, newMeal);}
+    public User addMeal(@PathVariable("userId") Long userId, @PathVariable("mealId") Long mealId) { return userService.addMeal(userId, mealId);}
 
 }
