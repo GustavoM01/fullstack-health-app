@@ -16,4 +16,10 @@ export class UserService {
   saveNewUser(user: User): Observable<User> {
     return this.http.post<User>(this.baseUrl, user);
   }
+
+  login(user: User): Observable<User> {
+    console.log(this.baseUrl + '/login/' + user.getUsername());
+
+    return this.http.get<User>(this.baseUrl + '/login/' + user.getUsername());
+  }
 }

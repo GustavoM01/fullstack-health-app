@@ -20,6 +20,10 @@ public class InputController {
     }
 
     // USER-SERVICE
+    @GetMapping("/user/login/{username}")
+    @ResponseStatus(HttpStatus.OK)
+    public UserDTO login (@PathVariable("username") String username) {return inputService.login(username);}
+
     @PostMapping("/user")
     @ResponseStatus(HttpStatus.CREATED)
     public UserDTO createNewUser(@RequestBody @Valid UserDTO newUser) {

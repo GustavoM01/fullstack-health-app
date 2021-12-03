@@ -34,6 +34,10 @@ public class UserService {
         return userRepository.findById(id).orElse(null);
     }
 
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username).orElse(null);
+    }
+
     public User save(UserDTO newUser) {
         // Check if username is taken
         if (userRepository.findByUsername(newUser.getUsername()).isPresent())
