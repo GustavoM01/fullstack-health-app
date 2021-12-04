@@ -32,6 +32,10 @@ public class UserController {
         return userService.findById(id);
     }
 
+    @GetMapping("/login/{username}")
+    @ResponseStatus(HttpStatus.OK)
+    public User login(@PathVariable("username") String username) { return userService.findByUsername(username);}
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public User create(@RequestBody @Valid UserDTO newUser) {

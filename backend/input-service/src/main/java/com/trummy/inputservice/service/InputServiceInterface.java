@@ -9,6 +9,8 @@ import java.util.List;
 
 public interface InputServiceInterface {
 
+    UserDTO login(String user);
+
     UserDTO createNewUser(UserDTO newUser);
 
     UserDTO addMealToUser(MealDTO newMeal);

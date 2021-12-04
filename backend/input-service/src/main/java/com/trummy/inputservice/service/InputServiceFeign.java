@@ -25,6 +25,11 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
+    public UserDTO login(String user) {
+        return userProxy.login(user);
+    }
+
+    @Override
     public UserDTO createNewUser(UserDTO newUser) {
         UserDTO createdUser = userProxy.createNewUser(newUser);
         return createdUser;
