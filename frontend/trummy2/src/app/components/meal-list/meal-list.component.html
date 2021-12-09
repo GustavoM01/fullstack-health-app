@@ -3,4 +3,5 @@
 <div *ngFor="let meal of meals">
     <h3><a [routerLink]="['/meal', meal.id]" [title]="meal.name + ' details'">{{meal.name}}</a></h3>
     <p>{{meal.ingredients.length}} ingredients</p>
+    <p>{{meal.date | date:'short'}}</p>
 </div>

@@ -14,47 +14,56 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: 'Pizza',
-        ingredients: [1, 2, 3]
+        ingredients: [1, 2, 3],
+        date: new Date('December 1, 2021 15:24:00')
       },
       {
         id: 2,
         name: 'Hamburger',
-        ingredients: [4, 5, 6]
+        ingredients: [4, 5, 6],
+        date: new Date('December 1, 2021 21:24:00')
       },
       {
         id: 3,
         name: 'Salad',
-        ingredients: [7, 8, 9]
+        ingredients: [7, 8, 9],
+        date: new Date('December 2, 2021 9:24:00')
       },
       {
         id: 4,
         name: 'Pizza',
-        ingredients: [1, 2, 3]
+        ingredients: [1, 2, 3],
+        date: new Date('December 2, 2021 15:24:00')
       },
       {
         id: 5,
         name: 'Pasta',
-        ingredients: [4, 5, 6]
+        ingredients: [4, 5, 6],
+        date: new Date('December 2, 2021 21:24:00')
       },
       {
         id: 6,
         name: 'Soup',
-        ingredients: [7, 8, 9]
+        ingredients: [7, 8, 9],
+        date: new Date('December 3, 2021 9:24:00')
       },
       {
         id: 7,
         name: 'Thai noodles',
-        ingredients: [1, 2, 3]
+        ingredients: [1, 2, 3],
+        date: new Date('December 3, 2021 15:24:00')
       },
       {
         id: 8,
         name: 'Rice',
-        ingredients: [4, 5, 6]
+        ingredients: [4, 5, 6],
+        date: new Date('December 3, 2021 21:24:00')
       },
       {
         id: 9,
         name: 'Hot dog',
-        ingredients: [7, 8, 9]
+        ingredients: [7, 8, 9],
+        date: new Date('December 4, 2021 9:24:00')
       }
     ];
 
