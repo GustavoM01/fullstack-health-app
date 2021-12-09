@@ -1,0 +1,9 @@
+<h2>User</h2>
+
+<div *ngIf="user">
+    <h3>{{user.username}}</h3>
+    <div *ngFor="let meal of meals">
+        <h4>{{meal.name}}</h4>
+    </div>
+        
+</div>

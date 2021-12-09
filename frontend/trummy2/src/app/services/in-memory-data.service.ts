@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { InMemoryDbService } from 'angular-in-memory-web-api';
 import { Ingredient } from '../interfaces/ingredient';
 import { Meal } from '../interfaces/meal';
+import { User } from '../interfaces/user';
 
 @Injectable({
   providedIn: 'root'
@@ -24,6 +25,36 @@ export class InMemoryDataService implements InMemoryDbService {
         id: 3,
         name: 'Salad',
         ingredients: [7, 8, 9]
+      },
+      {
+        id: 4,
+        name: 'Pizza',
+        ingredients: [1, 2, 3]
+      },
+      {
+        id: 5,
+        name: 'Pasta',
+        ingredients: [4, 5, 6]
+      },
+      {
+        id: 6,
+        name: 'Soup',
+        ingredients: [7, 8, 9]
+      },
+      {
+        id: 7,
+        name: 'Thai noodles',
+        ingredients: [1, 2, 3]
+      },
+      {
+        id: 8,
+        name: 'Rice',
+        ingredients: [4, 5, 6]
+      },
+      {
+        id: 9,
+        name: 'Hot dog',
+        ingredients: [7, 8, 9]
       }
     ];
 
@@ -38,10 +69,18 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 8, name: 'Walnut' },
       { id: 9, name: 'Oatmeal' }
     ]
-    return { meals, ingredients};
+
+    const users: User[] = [
+      {id: 1, username: 'jhon', password: '123', mealList: [1, 2, 3]},
+      {id: 2, username: 'jane', password: '123', mealList: [4, 5, 6]},
+      {id: 3, username: 'joe', password: '123', mealList: [7, 8, 9]}
+
+    ]
+
+    return { meals, ingredients, users};
   }
 
-  genId<T extends Meal | Ingredient>(myTable : T[]): number {
+  genId<T extends Meal | Ingredient | User>(myTable : T[]): number {
     return myTable.length > 0 ? Math.max(...myTable.map(item => item.id)) + 1 : 1;
   }
 }

@@ -9,13 +9,17 @@ import { MealListComponent } from './components/meal-list/meal-list.component';
 import { MealDetailsComponent } from './components/meal-details/meal-details.component';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { IngredientSearchComponent } from './components/ingredient-search/ingredient-search.component';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { UserDetailComponent } from './components/user-detail/user-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MealListComponent,
     MealDetailsComponent,
-    IngredientSearchComponent
+    IngredientSearchComponent,
+    UserListComponent,
+    UserDetailComponent
   ],
   imports: [
     BrowserModule,
