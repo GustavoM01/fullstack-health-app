@@ -16,7 +16,6 @@ export class MealListComponent implements OnInit {
 
   ngOnInit(): void {
     this.getMeals();
-    console.log(this.meals);
   }
 
   getMeals() {

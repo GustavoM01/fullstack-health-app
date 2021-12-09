@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { MealListComponent } from './components/meal-list/meal-list.component';
 import { MealDetailsComponent } from './components/meal-details/meal-details.component';
 import { InMemoryDataService } from './services/in-memory-data.service';
+import { IngredientSearchComponent } from './components/ingredient-search/ingredient-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MealListComponent,
-    MealDetailsComponent
+    MealDetailsComponent,
+    IngredientSearchComponent
   ],
   imports: [
     BrowserModule,

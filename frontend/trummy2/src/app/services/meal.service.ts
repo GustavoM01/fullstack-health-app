@@ -13,6 +13,10 @@ export class MealService {
 
   private mealsUrl = 'api/meals';
 
+  httpOptions = {
+    headers: new HttpHeaders({'Content-Type': 'application/json'})
+  };
+
   constructor(private http : HttpClient) { }
 
   getMeals() : Observable<Meal[]> {
@@ -23,6 +27,11 @@ export class MealService {
   getMeal(id: number) : Observable<Meal> {
     return this.http.get<Meal>(`${this.mealsUrl}/${id}`)
     .pipe(catchError(this.handleError<Meal>('getMeal')));
+  }
+
+  addIngredientToMeal(meal : Meal) : Observable<Meal> {
+    return this.http.put<Meal>(this.mealsUrl, meal, this.httpOptions)
+    .pipe(catchError(this.handleError<any>('addIngredientToMeal')));
   }
 
   handleError<T> (operation = 'operation', result?: T) {
