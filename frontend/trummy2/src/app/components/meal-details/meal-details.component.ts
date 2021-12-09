@@ -5,6 +5,7 @@ import { Location } from '@angular/common';
 import { MealService } from 'src/app/services/meal.service';
 import { Ingredient } from 'src/app/interfaces/ingredient';
 import { Meal } from '../../interfaces/meal';
+import { IngredientService } from 'src/app/services/ingredient.service';
 
 
 
@@ -13,29 +14,32 @@ import { Meal } from '../../interfaces/meal';
   templateUrl: './meal-details.component.html',
   styleUrls: ['./meal-details.component.css']
 })
-export class MealDetailsComponent implements OnInit, OnChanges {
+export class MealDetailsComponent implements OnInit {
 
   @Input()  meal?: Meal;
   @Input() addIngredient? : Ingredient;
+  ingredients : Ingredient[] = []; 
 
 
   constructor(private route : ActivatedRoute,
               private mealService : MealService,
+              private ingredientService : IngredientService,
               private location : Location) { }
 
   ngOnInit(): void {
     this.getMeal();
   }
 
-  ngOnChanges(changes : SimpleChanges): void {
-    this.getMeal();
-  }
-
-  getMeal(): void {
+  async getMeal(): Promise<void> {
     const routeParams = this.route.snapshot.paramMap
     const idFromRoute = Number(routeParams.get('id'));
 
-    this.mealService.getMeal(idFromRoute).subscribe(meal => this.meal = meal);
+    const mealPromise = await this.mealService.getMeal(idFromRoute).toPromise();
+    this.meal = mealPromise;
+
+    const ingredientsPromise = await this.ingredientService.getAllIngredients().toPromise();
+    this.ingredients = ingredientsPromise.filter(ingredient => this.meal!.ingredients.includes(ingredient.id));
+  
   }
 
   onAddIngredient(ingredient: Ingredient): void {

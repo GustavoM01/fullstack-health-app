@@ -25,6 +25,11 @@ export class IngredientService {
     .pipe(catchError(this.handleError<Ingredient[]>('searchIngredients', []))); 
   }
 
+  getAllIngredients() : Observable<Ingredient[]> {
+    return this.http.get<Ingredient[]>(`${this.ingredientsUrl}`)
+    .pipe(catchError(this.handleError<Ingredient[]>('getIngredients', [])));
+  }
+
   private handleError<T>(operation = 'operation', result?:T) {
     return (error: any): Observable<T> => {
       console.error(error);

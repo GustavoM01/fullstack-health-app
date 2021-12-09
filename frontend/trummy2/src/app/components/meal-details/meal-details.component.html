@@ -2,7 +2,9 @@
 
 <div *ngIf="meal">
     <h3>{{meal.name}}</h3>
-    <p>{{meal.ingredients}}</p>
+    <div *ngFor="let ingredient of ingredients">
+        <p>{{ingredient.name}}</p>
+    </div>
 </div>
 
 <app-ingredient-search (newIngredientEvent)="onAddIngredient($event)"></app-ingredient-search>
