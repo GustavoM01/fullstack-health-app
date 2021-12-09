@@ -1,0 +1,6 @@
+<h2>Meals</h2>
+
+<div *ngFor="let meal of meals">
+    <h3><a [routerLink]="['/meal', meal.id]" [title]="meal.name + ' details'">{{meal.name}}</a></h3>
+    <p>{{meal.ingredients.length}} ingredients</p>
+</div>
