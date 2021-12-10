@@ -8,13 +8,19 @@ import { User } from '../interfaces/user';
 })
 export class UserService {
 
+  private readonly userUrl = '/api/users/'
+
   constructor(private http : HttpClient) { }
 
   getUsers() {
-    return this.http.get<User[]>('/api/users');
+    return this.http.get<User[]>(this.userUrl);
   }
 
   getUser(id: number) {
-    return this.http.get<User>('/api/users/' + id);
+    return this.http.get<User>(this.userUrl + id);
+  }
+
+  addMealToUser(id : number) {
+    return this.http.put<User>(this.userUrl + id, id);
   }
 }
