@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MealListComponent } from './components/meal-list/meal-list.component';
 import { MealDetailsComponent } from './components/meal-details/meal-details.component';
-import { InMemoryDataService } from './services/in-memory-data.service';
+// import { InMemoryDataService } from './services/in-memory-data.service';
 import { IngredientSearchComponent } from './components/ingredient-search/ingredient-search.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserMealDetailComponent } from './components/user-meal-detail/user-meal-detail.component';
@@ -34,7 +34,7 @@ import { MealFormComponent } from './components/meal-form/meal-form.component';
     FormsModule,
     MatCheckboxModule,
     BrowserAnimationsModule,
-    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false})
+    // HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false})
   ],
   providers: [],
   bootstrap: [AppComponent]

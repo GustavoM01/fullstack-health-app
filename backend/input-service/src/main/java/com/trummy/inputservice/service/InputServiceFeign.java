@@ -8,6 +8,8 @@ import com.trummy.inputservice.proxy.UserProxy;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @Qualifier("open-feign")
 public class InputServiceFeign implements InputServiceInterface{
@@ -30,6 +32,11 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
+    public UserDTO findUser(Long id) {
+        return userProxy.findUserById(id);
+    }
+
+    @Override
     public UserDTO createNewUser(UserDTO newUser) {
         UserDTO createdUser = userProxy.createNewUser(newUser);
         return createdUser;
@@ -44,9 +51,19 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
+    public List<MealReturnDTO> findAllMeals() {
+        return mealProxy.findAll();
+    }
+
+    @Override
     public MealReturnDTO addIngredientsToMeal(Long mealId, IngredientsDTO ingredientsIds) {
         MealReturnDTO updatedMeal = mealProxy.addIngredientsToMeal(mealId, ingredientsIds);
         return updatedMeal;
+    }
+
+    @Override
+    public List<IngredientReturnDTO> findAllIngredients() {
+        return ingredientProxy.findAll();
     }
 
     @Override

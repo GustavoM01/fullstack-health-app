@@ -12,6 +12,9 @@ public interface UserProxy {
     @GetMapping("/user/login/{username}")
     UserDTO login(@PathVariable("username") String username);
 
+    @GetMapping("/user/{id}")
+    UserDTO findUserById(@PathVariable("id") Long id);
+
     @PostMapping("/user")
     UserDTO createNewUser(UserDTO newUser);
 

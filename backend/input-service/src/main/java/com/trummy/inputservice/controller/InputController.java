@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 
 @RestController
@@ -24,6 +25,10 @@ public class InputController {
     @ResponseStatus(HttpStatus.OK)
     public UserDTO login (@PathVariable("username") String username) {return inputService.login(username);}
 
+    @GetMapping("/user/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public UserDTO findUserById(@PathVariable("id") Long id) {return inputService.findUser(id);}
+
     @PostMapping("/user")
     @ResponseStatus(HttpStatus.CREATED)
     public UserDTO createNewUser(@RequestBody @Valid UserDTO newUser) {
@@ -31,6 +36,12 @@ public class InputController {
     }
 
     // MEAL-SERVICE
+    @GetMapping("/meal")
+    @ResponseStatus(HttpStatus.OK)
+    public List<MealReturnDTO> findAllMeals() {
+        return inputService.findAllMeals();
+    }
+
     @PostMapping("/user/add-meal")
     @ResponseStatus(HttpStatus.CREATED)
     public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
@@ -41,6 +52,13 @@ public class InputController {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public MealReturnDTO addIngredientsToMeal(@PathVariable("mealId") Long mealId, @RequestBody IngredientsDTO ingredientsIds) {
         return inputService.addIngredientsToMeal(mealId, ingredientsIds);
+    }
+
+    // INGREDIENT-SERVICE
+    @GetMapping("/ingredient")
+    @ResponseStatus(HttpStatus.OK)
+    public List<IngredientReturnDTO> findAllIngredients() {
+        return inputService.findAllIngredients();
     }
 
     // SYMPTOM-SERVICE

@@ -1,7 +1,7 @@
 <h2>Meals</h2>
 
 <div *ngFor="let meal of meals">
-    <h3><a [routerLink]="['/meal', meal.id]" [title]="meal.name + ' details'">{{meal.name}}</a></h3>
+    <h3><a [routerLink]="['/meal', meal.mealId]" [title]="meal.mealName + ' details'">{{meal.mealName}}</a></h3>
     <p>{{meal.ingredients.length}} ingredients</p>
-    <p>{{meal.date | date:'short'}}</p>
+    <p>{{meal.dateConsumed | date:'short'}}</p>
 </div>

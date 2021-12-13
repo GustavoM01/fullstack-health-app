@@ -2,7 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { IngredientService } from 'src/app/services/ingredient.service';
-import { Meal } from 'src/app/models/meal.model';
+import { Meal } from 'src/app/interfaces/meal';
 import { Ingredient } from 'src/app/interfaces/ingredient';
 
 @Component({
@@ -14,25 +14,26 @@ export class MealFormComponent implements OnInit {
 
   @Output() newMeal = new EventEmitter<Meal>();
 
-  model = new Meal (0, '', [], new Date());
+  model : Meal = {} as Meal;
 
   submitted = false;
 
-  ingredients$! : Observable<Ingredient[]>;
+  ingredientList : Ingredient[] = [];
 
   constructor(private ingredientService : IngredientService) { }
 
   ngOnInit(): void {
     this.getIngredients();
+    console.log(this.ingredientList);
   }
 
   onSubmit() {
-    console.log(this.model);
     this.newMeal.emit(this.model);
   }
 
-  getIngredients() {
-    this.ingredients$ = this.ingredientService.getAllIngredients();
+  async getIngredients() : Promise<void> {
+    const ingredientsPromise = await this.ingredientService.getAllIngredients().toPromise();
+    this.ingredientList = ingredientsPromise;
+    
   }
-
 }

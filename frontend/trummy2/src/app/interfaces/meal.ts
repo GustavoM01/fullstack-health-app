@@ -1,6 +1,6 @@
 export interface Meal {
-    id: number;
-    name: string;
+    mealId: number;
+    mealName: string;
     ingredients: number[];
-    date: Date;
+    dateConsumed: Date;
 }

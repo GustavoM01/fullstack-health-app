@@ -11,11 +11,17 @@ public interface InputServiceInterface {
 
     UserDTO login(String user);
 
+    UserDTO findUser(Long id);
+
     UserDTO createNewUser(UserDTO newUser);
 
     UserDTO addMealToUser(MealDTO newMeal);
 
+    List<MealReturnDTO> findAllMeals();
+
     MealReturnDTO addIngredientsToMeal(Long mealId, IngredientsDTO ingredientsIds);
+
+    List<IngredientReturnDTO> findAllIngredients();
 
     SymptomDTO addNewSymptom(SymptomDTO newSymptom);
 }

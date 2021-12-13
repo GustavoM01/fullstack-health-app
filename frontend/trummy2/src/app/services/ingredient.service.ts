@@ -9,7 +9,7 @@ import { Ingredient } from '../interfaces/ingredient';
 })
 export class IngredientService {
 
-  private ingredientsUrl = 'api/ingredients'; // URL to web api
+  private readonly ingredientsUrl = 'http://localhost:8100/input/ingredient/'; // URL to web api
 
   httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})

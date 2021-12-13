@@ -32,6 +32,12 @@ public class User {
         this.password = password;
     }
 
+    public User(String username, String password, List<Long> mealList) {
+        this.username = username;
+        this.password = password;
+        this.mealList = mealList;
+    }
+
     public void addMeal(Long mealId) {
         this.getMealList().add(mealId);
     }
