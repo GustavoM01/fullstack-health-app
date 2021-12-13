@@ -43,7 +43,6 @@ export class UserMealDetailComponent implements OnInit {
   }
 
   async addMeal(meal : Meal): Promise<void> {
-    console.log(`The meal to add is: ${meal.name} with ${meal.ingredients}`);
     this.newMeal = await this.mealService.saveMeal(meal).toPromise();
     this.userService.addMealToUser(this.newMeal.id);
     this.meals.push(this.newMeal);
@@ -52,7 +51,6 @@ export class UserMealDetailComponent implements OnInit {
   onAddIngredient(ingredient : Ingredient): void {
     if(this.newMeal) {
       this.newMeal.ingredients.push(ingredient.id);
-      console.log(ingredient);
     }
   }
 

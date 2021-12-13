@@ -30,7 +30,6 @@ export class MealService {
   }
 
   saveMeal(meal : Meal) : Observable<Meal> {
-    console.log(`Inside of mealService: ${meal.name}, ${meal.ingredients} and ${meal.date}`)
     return this.http.post<Meal>(this.mealsUrl, meal, this.httpOptions)
     .pipe(catchError(this.handleError<Meal>('saveMeal', meal)));
   }
