@@ -15,6 +15,7 @@ import { IngredientSearchComponent } from './components/ingredient-search/ingred
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserMealDetailComponent } from './components/user-meal-detail/user-meal-detail.component';
 import { MealFormComponent } from './components/meal-form/meal-form.component';
+import { UserNavbarComponent } from './components/user-navbar/user-navbar.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { MealFormComponent } from './components/meal-form/meal-form.component';
     IngredientSearchComponent,
     UserListComponent,
     UserMealDetailComponent,
-    MealFormComponent
+    MealFormComponent,
+    UserNavbarComponent
   ],
   imports: [
     BrowserModule,
