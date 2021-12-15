@@ -35,17 +35,17 @@ public class InputController {
         return inputService.createNewUser(newUser);
     }
 
+    @PostMapping("/user/add-meal")
+    @ResponseStatus(HttpStatus.CREATED)
+    public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
+        return inputService.addMealToUser(newMeal);
+    }
+
     // MEAL-SERVICE
     @GetMapping("/meal")
     @ResponseStatus(HttpStatus.OK)
     public List<MealReturnDTO> findAllMeals() {
         return inputService.findAllMeals();
-    }
-
-    @PostMapping("/user/add-meal")
-    @ResponseStatus(HttpStatus.CREATED)
-    public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
-        return inputService.addMealToUser(newMeal);
     }
 
     @PutMapping("/meal/add-ingredients/{mealId}")

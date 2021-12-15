@@ -28,6 +28,8 @@ export class MealFormComponent implements OnInit {
   }
 
   onSubmit() {
+    if(!this.model.dateConsumed)
+      this.model.dateConsumed = new Date();
     this.newMeal.emit(this.model);
   }
 
