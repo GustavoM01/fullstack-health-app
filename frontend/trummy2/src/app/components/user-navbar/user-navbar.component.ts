@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-user-navbar',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserNavbarComponent implements OnInit {
 
+  @Input() onUserProfile = false;
+  @Input() userId? : number;
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,2 +1,2 @@
-<app-user-navbar></app-user-navbar>
-<router-outlet></router-outlet>
+<app-user-navbar [onUserProfile]="onUserProfile" [userId]="userId"></app-user-navbar>
+<router-outlet (activate)="changeNavbar()"></router-outlet>

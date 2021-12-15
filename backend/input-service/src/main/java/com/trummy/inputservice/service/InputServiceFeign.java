@@ -37,6 +37,9 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
+    public List<UserDTO> findAllUsers() {return userProxy.findAll();}
+
+    @Override
     public UserDTO createNewUser(UserDTO newUser) {
         UserDTO createdUser = userProxy.createNewUser(newUser);
         return createdUser;

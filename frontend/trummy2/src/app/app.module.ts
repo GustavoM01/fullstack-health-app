@@ -16,6 +16,11 @@ import { UserListComponent } from './components/user-list/user-list.component';
 import { UserMealDetailComponent } from './components/user-meal-detail/user-meal-detail.component';
 import { MealFormComponent } from './components/meal-form/meal-form.component';
 import { UserNavbarComponent } from './components/user-navbar/user-navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
+import { UserSymptomComponent } from './components/user-symptom/user-symptom.component';
+
 
 
 @NgModule({
@@ -27,7 +32,11 @@ import { UserNavbarComponent } from './components/user-navbar/user-navbar.compon
     UserListComponent,
     UserMealDetailComponent,
     MealFormComponent,
-    UserNavbarComponent
+    UserNavbarComponent,
+    HomeComponent,
+    AboutComponent,
+    UserDashboardComponent,
+    UserSymptomComponent
   ],
   imports: [
     BrowserModule,

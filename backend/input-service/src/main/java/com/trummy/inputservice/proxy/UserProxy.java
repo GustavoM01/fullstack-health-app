@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.List;
+
 @FeignClient("user-service")
 public interface UserProxy {
 
@@ -14,6 +16,9 @@ public interface UserProxy {
 
     @GetMapping("/user/{id}")
     UserDTO findUserById(@PathVariable("id") Long id);
+
+    @GetMapping("/user")
+    List<UserDTO> findAll();
 
     @PostMapping("/user")
     UserDTO createNewUser(UserDTO newUser);

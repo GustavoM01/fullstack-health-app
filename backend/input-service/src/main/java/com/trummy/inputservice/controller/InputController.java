@@ -29,6 +29,10 @@ public class InputController {
     @ResponseStatus(HttpStatus.OK)
     public UserDTO findUserById(@PathVariable("id") Long id) {return inputService.findUser(id);}
 
+    @GetMapping("/user")
+    @ResponseStatus(HttpStatus.OK)
+    public List<UserDTO> findAllUsers() {return inputService.findAllUsers();}
+
     @PostMapping("/user")
     @ResponseStatus(HttpStatus.CREATED)
     public UserDTO createNewUser(@RequestBody @Valid UserDTO newUser) {

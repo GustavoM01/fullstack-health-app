@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
@@ -42,7 +42,6 @@ export class UserMealDetailComponent implements OnInit {
     this.meals = mealPromise.filter(meal => this.user.mealList.includes(meal.mealId));
       
   }
-
 
   async addMeal(meal : Meal): Promise<void> {
     this.newMeal = await this.mealService.saveMeal(meal).toPromise();

@@ -13,6 +13,8 @@ public interface InputServiceInterface {
 
     UserDTO findUser(Long id);
 
+    List<UserDTO> findAllUsers();
+
     UserDTO createNewUser(UserDTO newUser);
 
     UserDTO addMealToUser(MealDTO newMeal);
