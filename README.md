@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GustavoM01/fullstack-health-app">
-    <img src="./frontend/src/assets/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="frontend/trummy-angular/src/assets/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
