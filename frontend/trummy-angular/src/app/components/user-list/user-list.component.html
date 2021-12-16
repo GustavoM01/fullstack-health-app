@@ -1,0 +1,11 @@
+<div class="container-width">
+    <h1>Select an user to check their profile</h1>
+    <hr>
+
+    <div *ngFor="let user of userList" class="user-item bg-warning bg-gradient nav-link">
+        <a [routerLink]="['/user', user.id]">
+            <h2>{{ user.username }}</h2>
+            <h3>User has {{ user.mealList.length}} meals registered</h3>
+        </a>
+    </div>
+</div>
