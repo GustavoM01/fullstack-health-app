@@ -7,7 +7,7 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'trummy2';
+  title = 'trummy';
   onUserProfile = false;
   userId? : number;
 
