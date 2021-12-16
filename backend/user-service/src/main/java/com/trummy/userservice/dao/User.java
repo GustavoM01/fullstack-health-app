@@ -41,4 +41,6 @@ public class User {
     public void addMeal(Long mealId) {
         this.getMealList().add(mealId);
     }
+
+    public void deleteMeal(Long mealId) {this.getMealList().remove(mealId);}
 }

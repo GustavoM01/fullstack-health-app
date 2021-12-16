@@ -9,6 +9,7 @@ import java.util.List;
 
 public interface InputServiceInterface {
 
+    // USER
     UserDTO login(String user);
 
     UserDTO findUser(Long id);
@@ -17,12 +18,18 @@ public interface InputServiceInterface {
 
     UserDTO createNewUser(UserDTO newUser);
 
-    UserDTO addMealToUser(MealDTO newMeal);
+    UserDTO addMealToUser(Long id, Long mealId);
 
+    UserDTO deleteMeal(Long id, Long mealToDelete);
+
+    // MEAL
     List<MealReturnDTO> findAllMeals();
 
     MealReturnDTO addIngredientsToMeal(Long mealId, IngredientsDTO ingredientsIds);
 
+    MealReturnDTO saveMeal(MealDTO mealDTO);
+
+    // INGREDIENT
     List<IngredientReturnDTO> findAllIngredients();
 
     SymptomDTO addNewSymptom(SymptomDTO newSymptom);

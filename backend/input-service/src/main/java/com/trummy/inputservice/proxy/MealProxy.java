@@ -16,8 +16,11 @@ public interface MealProxy {
     List<MealReturnDTO> findAll();
 
     @PostMapping("/meal")
-    MealDTO addMeal(MealDTO newMeal);
+    MealReturnDTO addMeal(MealDTO newMeal);
 
     @PutMapping("/meal/{mealId}")
     MealReturnDTO addIngredientsToMeal(@PathVariable("mealId") Long mealId, IngredientsDTO ingredientsIds);
+
+    @DeleteMapping("/meal/{mealId}")
+    MealReturnDTO deleteMeal(@PathVariable Long mealId);
 }

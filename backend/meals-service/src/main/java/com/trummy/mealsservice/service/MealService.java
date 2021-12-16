@@ -42,4 +42,8 @@ public class MealService {
         foundMeal.get().addIngredients(ingredientsIds);
         return mealRepository.save(foundMeal.get());
     }
+
+    public void deleteMeal(Long mealId) {
+        mealRepository.deleteById(mealId);
+    }
 }
