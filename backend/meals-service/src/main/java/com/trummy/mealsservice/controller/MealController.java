@@ -22,6 +22,7 @@ public class MealController {
     public MealController(MealService mealService) {
         this.mealService = mealService;
     }
+
     @GetMapping
     public List<Meal> findAll() {
         return mealService.findAll();

@@ -1,0 +1,52 @@
+div.container {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
+
+div.meal-history {
+    border: 1px solid black;
+    flex-grow: 2;
+}
+
+div.meal-history h4 {
+    padding: 10px;
+}
+
+div.meal-item:last-child hr{
+    visibility: hidden; 
+}
+
+div.control-btn-dash {  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    max-width: 420px;
+    
+}
+
+.control-btn {
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+}

@@ -32,6 +32,12 @@ public class Meal {
         this.ingredients = ingredients;
     }
 
+    public Meal(String mealName, List<Long> ingredients, Date dateConsumed) {
+        this.mealName = mealName;
+        this.ingredients = ingredients;
+        this.dateConsumed = dateConsumed;
+    }
+
     public void addIngredients(IngredientsDTO newIngredients) {
         ingredients.addAll(newIngredients.getIngredientsIds());
     }

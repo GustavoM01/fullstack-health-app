@@ -1,0 +1,22 @@
+<h2>MEAL HISTORY</h2>
+
+<div class="container" *ngIf="user">
+
+        <div class="meal-history">
+            <div class="meal-item" *ngFor="let meal of meals">
+                <h4>{{meal.mealName}}</h4>
+                <h4>{{meal.dateConsumed | date:'fullDate'}}</h4>
+                <button>Edit</button>
+                <button>Delete</button>
+                <hr>
+            </div>
+        </div>
+
+        <div class="control-btn-dash">
+            <button class="control-btn" (click)="displayForm()">Add meal</button>
+            
+            <app-meal-form class="control-btn" *ngIf="addMealDisplayForm" (newMeal)="addMeal($event)"></app-meal-form>
+            
+            <button class="control-btn">Edit meal</button>
+    </div>
+</div>
