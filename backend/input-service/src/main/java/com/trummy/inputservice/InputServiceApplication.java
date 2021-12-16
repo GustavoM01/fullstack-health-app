@@ -13,8 +13,3 @@ public class InputServiceApplication {
 	}
 
 }
-
-// 1. create a new user X
-// 2. input a meal x
-// 3. add ingredients to meal x
-// 4. add symptoms X

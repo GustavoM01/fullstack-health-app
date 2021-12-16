@@ -42,4 +42,10 @@ public class MealController {
     public Meal addIngredients(@PathVariable("mealId") Long mealId, @RequestBody IngredientsDTO ingredientsIds) {
         return mealService.addIngredients(mealId, ingredientsIds);
     }
+
+    @DeleteMapping("/{mealId}")
+    public void deleteMeal(@PathVariable("mealId") Long mealId) {
+        mealService.deleteMeal(mealId);
+    }
+
 }

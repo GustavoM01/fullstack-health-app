@@ -42,8 +42,12 @@ public class UserController {
         return userService.save(newUser);
     }
 
-    @PostMapping("/{userId}/{mealId}")
+    @PutMapping("/{userId}")
     @ResponseStatus(HttpStatus.CREATED)
-    public User addMeal(@PathVariable("userId") Long userId, @PathVariable("mealId") Long mealId) { return userService.addMeal(userId, mealId);}
+    public User addMeal(@PathVariable("userId") Long userId, @RequestBody Long mealId) { return userService.addMeal(userId, mealId);}
+
+    @PutMapping("/{userId}/delete-meal")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public User deleteMeal(@PathVariable("userId") Long userId, @RequestBody Long mealId) { return userService.deleteMeal(userId, mealId);}
 
 }

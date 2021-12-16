@@ -46,16 +46,32 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
-    public UserDTO addMealToUser(MealDTO newMeal) {
-        MealDTO savedMeal = mealProxy.addMeal(newMeal);
-        UserDTO updatedUser = userProxy.addMealToUser(newMeal.getUserId(), savedMeal.getMealId());
-
-        return updatedUser;
+    public UserDTO addMealToUser(Long id, Long mealId) {
+        return userProxy.addMealToUser(id, mealId);
     }
+
+    @Override
+    public UserDTO deleteMeal(Long id, Long mealToDelete) {
+        mealProxy.deleteMeal(mealToDelete);
+        return userProxy.deleteMeal(id, mealToDelete);
+    }
+
+//    @Override
+//    public UserDTO addMealToUser(MealDTO newMeal) {
+//        MealDTO savedMeal = mealProxy.addMeal(newMeal);
+//        UserDTO updatedUser = userProxy.addMealToUser(newMeal.getUserId(), savedMeal.getMealId());
+//
+//        return updatedUser;
+//    }
 
     @Override
     public List<MealReturnDTO> findAllMeals() {
         return mealProxy.findAll();
+    }
+
+    @Override
+    public MealReturnDTO saveMeal(MealDTO newMeal) {
+        return mealProxy.addMeal(newMeal);
     }
 
     @Override

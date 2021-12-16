@@ -2,9 +2,7 @@ package com.trummy.inputservice.proxy;
 
 import com.trummy.inputservice.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,6 +21,9 @@ public interface UserProxy {
     @PostMapping("/user")
     UserDTO createNewUser(UserDTO newUser);
 
-    @PostMapping("/user/{userId}/{mealId}")
-    UserDTO addMealToUser(@PathVariable("userId") Long userId, @PathVariable("mealId") Long mealId);
+    @PutMapping("/user/{userId}")
+    UserDTO addMealToUser(@PathVariable("userId") Long userId, @RequestBody Long mealId);
+
+    @PutMapping("/user/{userId}/delete-meal")
+    UserDTO deleteMeal(@PathVariable("userId") Long userId, @RequestBody Long mealId);
 }

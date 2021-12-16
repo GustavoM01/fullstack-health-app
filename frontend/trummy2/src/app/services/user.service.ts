@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { IUser } from '../interfaces/user';
 // import { User } from '../models/user.model'
 import { Observable } from 'rxjs';
+import { Meal } from '../interfaces/meal';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +23,11 @@ export class UserService {
     return this.http.get<IUser>(`${this.userUrl}${id}`);
   }
 
-  addMealToUser(id : number) {
-    return this.http.put<IUser>(this.userUrl + id, id);
+  addMealToUser(userId: number, mealId : number) {
+    return this.http.put<IUser>(this.userUrl + userId, mealId);
+  }
+
+  deleteMeal(userId: number, mealId : number) {
+    return this.http.put<IUser>(this.userUrl + userId + '/delete-meal', mealId);
   }
 }

@@ -17,7 +17,7 @@ import { filter } from 'rxjs/operators';
 })
 export class UserMealDetailComponent implements OnInit {
 
-  user! : IUser;
+  user : IUser = {} as IUser;
   meals! : Meal[];
 
   // For adding new meal
@@ -45,7 +45,7 @@ export class UserMealDetailComponent implements OnInit {
 
   async addMeal(meal : Meal): Promise<void> {
     this.newMeal = await this.mealService.saveMeal(meal).toPromise();
-    this.userService.addMealToUser(this.newMeal.mealId);
+    this.userService.addMealToUser(this.user.id, this.newMeal.mealId).subscribe();
     this.meals.push(this.newMeal);
   }
 
@@ -57,6 +57,12 @@ export class UserMealDetailComponent implements OnInit {
 
   displayForm(): void {
     this.addMealDisplayForm = !this.addMealDisplayForm;
+  }
+
+  deleteMeal(meal : Meal) : void {
+    this.userService.deleteMeal(this.user.id, meal.mealId).subscribe();
+    // this.mealService.deleteMeal(meal);
+    this.meals.splice(this.meals.indexOf(meal), 1);
   }
 
 }

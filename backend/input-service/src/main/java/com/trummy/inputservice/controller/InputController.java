@@ -39,11 +39,21 @@ public class InputController {
         return inputService.createNewUser(newUser);
     }
 
-    @PostMapping("/user/add-meal")
-    @ResponseStatus(HttpStatus.CREATED)
-    public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
-        return inputService.addMealToUser(newMeal);
+    @PutMapping("/user/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public UserDTO addMealToUser(@PathVariable("id") Long id, @RequestBody Long mealId) { return inputService.addMealToUser(id, mealId);}
+
+    @PutMapping("/user/{id}/delete-meal")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public UserDTO deleteMealFromUser(@PathVariable("id") Long id, @RequestBody Long mealToDelete) {
+        return inputService.deleteMeal(id, mealToDelete);
     }
+
+//    @PostMapping("/user/add-meal")
+//    @ResponseStatus(HttpStatus.CREATED)
+//    public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
+//        return inputService.addMealToUser(newMeal);
+//    }
 
     // MEAL-SERVICE
     @GetMapping("/meal")
@@ -57,6 +67,10 @@ public class InputController {
     public MealReturnDTO addIngredientsToMeal(@PathVariable("mealId") Long mealId, @RequestBody IngredientsDTO ingredientsIds) {
         return inputService.addIngredientsToMeal(mealId, ingredientsIds);
     }
+
+    @PostMapping("/meal")
+    @ResponseStatus(HttpStatus.OK)
+    public MealReturnDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) { return inputService.saveMeal(newMeal);}
 
     // INGREDIENT-SERVICE
     @GetMapping("/ingredient")

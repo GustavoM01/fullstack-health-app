@@ -57,4 +57,15 @@ public class UserService {
         userRepository.save(foundUser.get());
         return foundUser.get();
     }
+
+    public User deleteMeal(Long userId, Long mealId) {
+        Optional<User> foundUser = userRepository.findById(userId);
+
+        if (foundUser.isEmpty())
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User with id: " + userId + " is not found in the database");
+
+        foundUser.get().deleteMeal(mealId);
+        userRepository.save(foundUser.get());
+        return foundUser.get();
+    }
 }
