@@ -8,6 +8,8 @@ div.meal-container {
     display: flex;
     padding: 10px;
     align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 div.meal-history {
@@ -24,8 +26,15 @@ div.meal-history h2, div.meal-history h3 {
 }
 
 div.meal-item {
+    display: flex;
+    justify-content: space-between;
     margin-top: 10px;
     padding: 18px;
+}
+
+div.meal-item div.edit-form {
+
+    max-width: 600px;
 }
 
 div.meal-item:last-child hr {

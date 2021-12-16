@@ -34,6 +34,10 @@ export class MealService {
     .pipe(catchError(this.handleError<Meal>('saveMeal', meal)));
   }
 
+  updateMeal(meal : Meal) : Observable<Meal> {
+    return this.http.put<Meal>(this.mealsUrl + '/update', meal);
+  }
+
   addIngredientToMeal(meal : Meal) : Observable<Meal> {
     return this.http.put<Meal>(this.mealsUrl, meal, this.httpOptions)
     .pipe(catchError(this.handleError<any>('addIngredientToMeal')));

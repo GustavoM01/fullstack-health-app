@@ -1,9 +1,8 @@
 <ng-container *ngIf=model>
 <div class="container">
     <div [hidden]="submitted">
-        <h3>New Meal</h3>
         <form (ngSubmit)="onSubmit()" #mealForm="ngForm">
-
+            
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name"
@@ -33,7 +32,7 @@
                 <label for="date">Date</label>
                 <input type="datetime-local" id="date"
                 [(ngModel)]="model.dateConsumed" name="date"
-                #date="ngModel" value="">
+                #date="ngModel">
             </div>
             
             <button type="submit" class="btn btn-success" [disabled]="!mealForm.form.valid">Save</button>

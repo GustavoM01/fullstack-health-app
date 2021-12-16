@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { IngredientService } from 'src/app/services/ingredient.service';
@@ -12,9 +12,11 @@ import { Ingredient } from 'src/app/interfaces/ingredient';
 })
 export class MealFormComponent implements OnInit {
 
+  @Input() isEdit = false;
   @Output() newMeal = new EventEmitter<Meal>();
 
   model : Meal = {} as Meal;
+  @Input() editModel? : Meal;
 
   submitted = false;
 
@@ -24,12 +26,16 @@ export class MealFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.getIngredients();
-    console.log(this.ingredientList);
+    if (this.editModel) {
+      this.model = this.editModel;
+    }
+      
   }
 
   onSubmit() {
-    if(!this.model.dateConsumed)
-      this.model.dateConsumed = new Date();
+    if(!this.model.dateConsumed){
+        this.model.dateConsumed = new Date();
+    }
     this.newMeal.emit(this.model);
   }
 

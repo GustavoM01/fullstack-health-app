@@ -49,11 +49,6 @@ public class InputController {
         return inputService.deleteMeal(id, mealToDelete);
     }
 
-//    @PostMapping("/user/add-meal")
-//    @ResponseStatus(HttpStatus.CREATED)
-//    public UserDTO addMealToUser(@RequestBody @Valid MealDTO newMeal) {
-//        return inputService.addMealToUser(newMeal);
-//    }
 
     // MEAL-SERVICE
     @GetMapping("/meal")
@@ -66,6 +61,12 @@ public class InputController {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public MealReturnDTO addIngredientsToMeal(@PathVariable("mealId") Long mealId, @RequestBody IngredientsDTO ingredientsIds) {
         return inputService.addIngredientsToMeal(mealId, ingredientsIds);
+    }
+
+    @PutMapping("/meal/update")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public MealReturnDTO updateMeal(@RequestBody MealReturnDTO updateMeal) {
+        return inputService.updateMeal(updateMeal);
     }
 
     @PostMapping("/meal")

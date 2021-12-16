@@ -29,6 +29,8 @@ public interface InputServiceInterface {
 
     MealReturnDTO saveMeal(MealDTO mealDTO);
 
+    MealReturnDTO updateMeal(MealReturnDTO updateMeal);
+
     // INGREDIENT
     List<IngredientReturnDTO> findAllIngredients();
 
