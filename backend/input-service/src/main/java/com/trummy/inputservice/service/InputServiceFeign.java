@@ -7,6 +7,7 @@ import com.trummy.inputservice.proxy.SymptomProxy;
 import com.trummy.inputservice.proxy.UserProxy;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -56,14 +57,6 @@ public class InputServiceFeign implements InputServiceInterface{
         return userProxy.deleteMeal(id, mealToDelete);
     }
 
-//    @Override
-//    public UserDTO addMealToUser(MealDTO newMeal) {
-//        MealDTO savedMeal = mealProxy.addMeal(newMeal);
-//        UserDTO updatedUser = userProxy.addMealToUser(newMeal.getUserId(), savedMeal.getMealId());
-//
-//        return updatedUser;
-//    }
-
     @Override
     public List<MealReturnDTO> findAllMeals() {
         return mealProxy.findAll();
@@ -78,6 +71,11 @@ public class InputServiceFeign implements InputServiceInterface{
     public MealReturnDTO addIngredientsToMeal(Long mealId, IngredientsDTO ingredientsIds) {
         MealReturnDTO updatedMeal = mealProxy.addIngredientsToMeal(mealId, ingredientsIds);
         return updatedMeal;
+    }
+
+    @Override
+    public MealReturnDTO updateMeal(@RequestBody MealReturnDTO updateMeal) {
+        return mealProxy.updateMeal(updateMeal);
     }
 
     @Override

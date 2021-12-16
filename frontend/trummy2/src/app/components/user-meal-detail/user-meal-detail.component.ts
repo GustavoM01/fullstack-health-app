@@ -23,7 +23,10 @@ export class UserMealDetailComponent implements OnInit {
   // For adding new meal
   addMealDisplayForm : boolean = false;
   newMeal! : Meal;
-
+  // For meal form: new meal or edit meal
+  editMealDisplayForm : boolean = false;
+  isEdit = false;
+  mealIdToEdit? : number;
 
   constructor(private route : ActivatedRoute,
               private userService : UserService,
@@ -49,19 +52,30 @@ export class UserMealDetailComponent implements OnInit {
     this.meals.push(this.newMeal);
   }
 
+  editMeal(editMeal : Meal) {
+    this.mealService.updateMeal(editMeal).subscribe();
+  }
+
   onAddIngredient(ingredient : Ingredient): void {
     if(this.newMeal) {
       this.newMeal.ingredients.push(ingredient.id);
     }
   }
 
-  displayForm(): void {
-    this.addMealDisplayForm = !this.addMealDisplayForm;
+  displayForm(value : string, meal? : Meal): void {
+    if (value === 'add')
+      this.addMealDisplayForm = !this.addMealDisplayForm;
+    else if (value === 'edit')
+    {
+      this.editMealDisplayForm = !this.editMealDisplayForm;
+      this.mealIdToEdit = meal?.mealId;
+      this.isEdit = true;
+    }
+      
   }
 
   deleteMeal(meal : Meal) : void {
     this.userService.deleteMeal(this.user.id, meal.mealId).subscribe();
-    // this.mealService.deleteMeal(meal);
     this.meals.splice(this.meals.indexOf(meal), 1);
   }
 

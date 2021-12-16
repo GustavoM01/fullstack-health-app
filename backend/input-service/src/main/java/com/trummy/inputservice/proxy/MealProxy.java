@@ -21,6 +21,9 @@ public interface MealProxy {
     @PutMapping("/meal/{mealId}")
     MealReturnDTO addIngredientsToMeal(@PathVariable("mealId") Long mealId, IngredientsDTO ingredientsIds);
 
+    @PutMapping("/meal/update")
+    MealReturnDTO updateMeal(@RequestBody MealReturnDTO updateMeal);
+
     @DeleteMapping("/meal/{mealId}")
     MealReturnDTO deleteMeal(@PathVariable Long mealId);
 }

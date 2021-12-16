@@ -38,6 +38,11 @@ public class MealController {
         return mealService.save(newMeal);
     }
 
+    @PutMapping("/update")
+    public Meal updateMeal(@RequestBody Meal updateMeal) {
+        return mealService.updateMeal(updateMeal);
+    }
+
     @PutMapping("/{mealId}")
     public Meal addIngredients(@PathVariable("mealId") Long mealId, @RequestBody IngredientsDTO ingredientsIds) {
         return mealService.addIngredients(mealId, ingredientsIds);

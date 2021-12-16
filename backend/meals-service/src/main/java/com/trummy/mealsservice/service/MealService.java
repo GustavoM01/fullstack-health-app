@@ -35,6 +35,13 @@ public class MealService {
         return mealRepository.save(meal);
     }
 
+    public Meal updateMeal(Meal meal) {
+        Optional<Meal> foundMeal = mealRepository.findById(meal.getMealId());
+        if (foundMeal.isEmpty())
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "There is no meal by that id");
+        return mealRepository.save(meal);
+    }
+
     public Meal addIngredients(Long mealId, IngredientsDTO ingredientsIds) {
         Optional<Meal> foundMeal = mealRepository.findById(mealId);
         if (foundMeal.isEmpty())
