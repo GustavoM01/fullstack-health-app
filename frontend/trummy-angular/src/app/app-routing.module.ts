@@ -6,13 +6,15 @@ import { HomeComponent } from './components/home/home.component';
 import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserMealDetailComponent } from './components/user-meal-detail/user-meal-detail.component';
+import { UserSymptomComponent } from './components/user-symptom/user-symptom.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'users', component: UserListComponent},
   {path: 'about', component: AboutComponent},
   {path: 'user/:id', component: UserDashboardComponent},
-  {path: 'user/:id/meal', component: UserMealDetailComponent}
+  {path: 'user/:id/meal', component: UserMealDetailComponent},
+  {path: 'user/:id/symptom', component: UserSymptomComponent}
 ];
 
 @NgModule({

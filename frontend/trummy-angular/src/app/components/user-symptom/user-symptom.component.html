@@ -1,1 +1,32 @@
-<p>user-symptom works!</p>
+
+<div class="container">
+    <h1>{{ user.username + "'s symptom history"}}</h1>
+    <hr>
+    <div class="page-container" *ngIf="user">
+        <div class="history-list">
+            <div *ngFor="let symptom of symptoms" class="item-style bg-warning">
+                
+                <div>
+                    <h2>{{ symptom.name }}</h2>
+                    <h2>{{ symptom.intensity }}</h2>
+                    <h3>{{ symptom.timeOfSymptom | date:'fullDate'}}</h3>
+                    <button (click)="displayForm('edit', symptom)">Edit</button>
+                    <button (click)="deleteSymptom(symptom)">Delete</button>
+                </div>
+                
+                <div class="edit-form">
+                    <app-symptom-form *ngIf="editSymptomDisplayForm && symptom.id === symptomIdToEdit" 
+                    (newSymptom)="editSymptom($event)" 
+                    [isEdit]="isEdit"
+                    [editModel]="symptom"></app-symptom-form>
+                </div>
+
+            </div>
+        </div>
+        <div class="control-btn-dash">
+            <button class="control-btn" (click)="displayForm('add')">Add symptom</button>
+            
+            <app-symptom-form class="control-btn" *ngIf="addSymptomDisplayForm" (newSymptom)="addSymptom($event)" [isEdit]="isEdit"></app-symptom-form>
+        </div>
+    </div>
+</div>

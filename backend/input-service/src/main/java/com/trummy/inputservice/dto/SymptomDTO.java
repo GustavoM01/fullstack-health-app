@@ -9,16 +9,17 @@ import java.util.Date;
 @Data
 public class SymptomDTO {
 
+    private Long id;
+
     @NotNull
     private Long userId;
 
     @NotBlank
     private String name;
 
-    @NotBlank
     private String description;
 
     private String intensity;
 
-    private Date timeOfSymptom = new Date();
+    private Date timeOfSymptom;
 }

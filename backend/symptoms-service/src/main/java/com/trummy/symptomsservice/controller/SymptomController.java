@@ -25,15 +25,33 @@ public class SymptomController {
         return symptomService.findAllSymptoms();
     }
 
+    @GetMapping("/user/{userId}")
+    @ResponseStatus
+    public List<Symptom> allSymptomsById(@PathVariable("userId") Long userId) {
+        return symptomService.findAllSymptomsById(userId);
+    }
+
     @GetMapping("/{symptomId}")
     @ResponseStatus(HttpStatus.OK)
     public Symptom findSymptom(@PathVariable("symptomId") Long symptomId) {
         return symptomService.findSymptomById(symptomId);
     }
 
+    @PutMapping
+    @ResponseStatus(HttpStatus.OK)
+    public Symptom updateSymptom(@RequestBody Symptom updateSymptom) {
+        return symptomService.updateSymptom(updateSymptom);
+    }
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Symptom saveSymptom(@RequestBody @Valid SymptomDTO newSymptom) {
         return symptomService.saveSymptom(newSymptom);
+    }
+
+    @DeleteMapping("/{symptomId}")
+    @ResponseStatus(HttpStatus.OK)
+    public void delete(@PathVariable("symptomId") Long symptomId) {
+        symptomService.delete(symptomId);
     }
 }

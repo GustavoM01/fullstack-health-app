@@ -20,6 +20,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
 import { UserSymptomComponent } from './components/user-symptom/user-symptom.component';
+import { SymptomFormComponent } from './components/symptom-form/symptom-form.component';
 
 
 
@@ -36,7 +37,8 @@ import { UserSymptomComponent } from './components/user-symptom/user-symptom.com
     HomeComponent,
     AboutComponent,
     UserDashboardComponent,
-    UserSymptomComponent
+    UserSymptomComponent,
+    SymptomFormComponent
   ],
   imports: [
     BrowserModule,

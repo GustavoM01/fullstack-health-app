@@ -81,10 +81,34 @@ public class InputController {
     }
 
     // SYMPTOM-SERVICE
+    @GetMapping("/symptom")
+    @ResponseStatus(HttpStatus.OK)
+    public List<SymptomDTO> findAllSymptoms() {
+        return inputService.findAllSymptoms();
+    }
+
+    @GetMapping("/symptom/{userId}")
+    @ResponseStatus(HttpStatus.OK)
+    public List<SymptomDTO> findAllSymptomsByUser(@PathVariable("userId") Long userId) {
+        return inputService.findAllSymptomsByUser(userId);
+    }
+
+    @PutMapping("/symptom/update/{symptomId}")
+    @ResponseStatus(HttpStatus.OK)
+    public SymptomDTO updateSymptom(@RequestBody SymptomDTO updateSymptom) {
+        return inputService.updateSymptom(updateSymptom);
+    }
+
     @PostMapping("/symptom")
     @ResponseStatus(HttpStatus.CREATED)
     public SymptomDTO addNewSymptom(@RequestBody @Valid SymptomDTO newSymptom) {
         return inputService.addNewSymptom(newSymptom);
+    }
+
+    @DeleteMapping("/symptom/{symptomId}")
+    @ResponseStatus(HttpStatus.OK)
+    public void deleteSymptom(@PathVariable("symptomId") Long symptomId) {
+        inputService.deleteSymptom(symptomId);
     }
 
 }

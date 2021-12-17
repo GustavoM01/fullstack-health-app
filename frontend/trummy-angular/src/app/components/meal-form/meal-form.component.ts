@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Observable } from 'rxjs';
 
 import { IngredientService } from 'src/app/services/ingredient.service';
 import { Meal } from 'src/app/interfaces/meal';

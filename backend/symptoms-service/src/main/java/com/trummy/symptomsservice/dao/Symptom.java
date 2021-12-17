@@ -23,12 +23,12 @@ public class Symptom {
 
     private Long userId;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private Type name;
 
     private String description;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private Level intensity;
 
     private Date timeOfSymptom;
