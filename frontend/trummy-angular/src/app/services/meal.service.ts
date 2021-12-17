@@ -11,7 +11,7 @@ import { Meal } from '../interfaces/meal';
 })
 export class MealService {
 
-  private mealsUrl = 'http://localhost:8100/input/meal/';
+  private readonly mealsUrl = 'http://localhost:8100/input/meal/';
 
   httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})

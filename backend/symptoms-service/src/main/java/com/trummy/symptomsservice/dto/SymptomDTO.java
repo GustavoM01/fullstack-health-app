@@ -25,11 +25,10 @@ public class SymptomDTO {
     @NotBlank
     private String name;
 
-    @NotBlank
     private String description;
 
     @Enumerated
-    private Level intensity;
+    private String intensity;
 
     private Date timeOfSymptom = new Date();
 

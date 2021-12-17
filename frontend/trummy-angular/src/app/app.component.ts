@@ -19,7 +19,7 @@ export class AppComponent {
     const url = this.router.url;
     if (url.includes('user/') || url.includes('symptom/')){
       this.onUserProfile = true;
-      if (url.includes('/meal')) {
+      if (url.includes('/meal') || url.includes('/symptom')) {
         this.userId = Number(url.slice(6, 7));
       } else {
         this.userId = Number(url.slice(url.length -1));

@@ -84,8 +84,28 @@ public class InputServiceFeign implements InputServiceInterface{
     }
 
     @Override
+    public List<SymptomDTO> findAllSymptoms() {
+        return symptomProxy.findAll();
+    }
+
+    @Override
+    public List<SymptomDTO> findAllSymptomsByUser(Long userId) {
+        return symptomProxy.findAllByUser(userId);
+    }
+
+    @Override
+    public SymptomDTO updateSymptom(SymptomDTO updateSymptom) {
+        return symptomProxy.updateSymptom(updateSymptom);
+    }
+
+    @Override
     public SymptomDTO addNewSymptom(SymptomDTO newSymptom) {
         SymptomDTO addedSymptom = symptomProxy.addNewSymptom(newSymptom);
         return addedSymptom;
+    }
+
+    @Override
+    public void deleteSymptom(Long symptomId) {
+        symptomProxy.delete(symptomId);
     }
 }

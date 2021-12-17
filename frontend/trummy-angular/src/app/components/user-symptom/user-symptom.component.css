@@ -1,0 +1,74 @@
+div.container {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1280px;
+}
+
+div.page-container {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.history-list {
+    flex-grow: 2;
+}
+
+div.history-list button {
+    padding: 6px 20px;
+    margin: 5px 10px;
+}
+
+div.history-list h2, div.history-list h3 {
+    margin: 0 10px;
+}
+
+div.item-style {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 18px;
+}
+
+div.item-style div.edit-form {
+
+    max-width: 600px;
+}
+
+div.item-style:last-child hr {
+    visibility: hidden; 
+}
+
+div.control-btn-dash {  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    max-width: 420px;
+    
+}
+
+.control-btn {
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+}

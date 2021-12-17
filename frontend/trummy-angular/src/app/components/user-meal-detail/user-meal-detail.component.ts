@@ -70,8 +70,7 @@ export class UserMealDetailComponent implements OnInit {
       this.editMealDisplayForm = !this.editMealDisplayForm;
       this.mealIdToEdit = meal?.mealId;
       this.isEdit = true;
-    }
-      
+    }  
   }
 
   deleteMeal(meal : Meal) : void {
